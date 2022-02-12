@@ -11,5 +11,6 @@ if (argv.number != null) {
 }
 else {
     var flips = coinFlips(1)
+    console.log(flips);
     console.log(countFlips(flips));
 }
