@@ -12,8 +12,9 @@ if (argv.number != null) {
     console.log(countFlips(flips));
 }
 else {
-    var flips = coinFlips(1)
+    var flips = coinFlips(1);
     console.log(flips)
     console.log(countFlips(flips));
     // console.log(countFlips(flips));
 }
+
