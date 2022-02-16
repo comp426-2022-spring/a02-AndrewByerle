@@ -5,7 +5,7 @@ import { coinFlips, countFlips } from './modules/coin.mjs';
 
 // Use Ex. node flips.js --number=10
 const argv = minimist(process.argv.slice(2));
-if (argv.number > 0) {
+if (argv.number != null) {
     // console.log(argv.number > 0)
     var flips = coinFlips(argv.number)
     console.log(flips, countFlips(flips));
