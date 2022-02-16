@@ -8,10 +8,12 @@ const argv = minimist(process.argv.slice(2));
 if (argv.number != null) {
     // console.log(argv.number > 0)
     var flips = coinFlips(argv.number)
-    console.log(flips, countFlips(flips));
+    console.log(flips);
+    console.log(countFlips(flips));
 }
 else {
     var flips = coinFlips(1)
-    console.log(flips, countFlips(flips));
+    console.log(flips)
+    console.log(countFlips(flips));
     // console.log(countFlips(flips));
 }
